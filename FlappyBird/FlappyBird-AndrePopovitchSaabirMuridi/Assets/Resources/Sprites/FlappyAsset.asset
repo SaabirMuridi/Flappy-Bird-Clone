@@ -1,0 +1,1186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: FlappyAsset
+  m_EditorClassIdentifier: 
+  hashCode: 63655097
+  material: {fileID: 21966491963721772}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 502
+    y: 502
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number4_bold
+    hashCode: 1970537677
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300008, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 1
+    x: 465
+    y: 493
+    width: 31
+    height: 18
+    xOffset: -15.5
+    yOffset: 9
+    xAdvance: 31
+    scale: 1
+    name: 59894_3
+    hashCode: 600921205
+    unicode: 0
+    pivot: {x: -15.5, y: 9}
+    sprite: {fileID: 21300006, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 2
+    x: 502
+    y: 490
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number5_bold
+    hashCode: 2085504300
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300010, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 3
+    x: 505
+    y: 476
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number6_bold
+    hashCode: 2048529551
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300014, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 4
+    x: 462
+    y: 472
+    width: 40
+    height: 14
+    xOffset: -20
+    yOffset: 7
+    xAdvance: 40
+    scale: 1
+    name: 59894_6
+    hashCode: 600921200
+    unicode: 0
+    pivot: {x: -20, y: 7}
+    sprite: {fileID: 21300012, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 5
+    x: 505
+    y: 460
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number7_bold
+    hashCode: 1860179438
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300018, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 6
+    x: 292
+    y: 456
+    width: 168
+    height: 56
+    xOffset: -84
+    yOffset: 28
+    xAdvance: 168
+    scale: 1
+    name: 59894_2
+    hashCode: 600921204
+    unicode: 0
+    pivot: {x: -84, y: 28}
+    sprite: {fileID: 21300004, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 7
+    x: 462
+    y: 456
+    width: 40
+    height: 14
+    xOffset: -20
+    yOffset: 7
+    xAdvance: 40
+    scale: 1
+    name: 59894_8
+    hashCode: 600921214
+    unicode: 0
+    pivot: {x: -20, y: 7}
+    sprite: {fileID: 21300016, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 8
+    x: 496
+    y: 434
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number0
+    hashCode: 1873747443
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300028, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 9
+    x: 295
+    y: 432
+    width: 32
+    height: 21
+    xOffset: -16
+    yOffset: 10.5
+    xAdvance: 32
+    scale: 1
+    name: 59894_10
+    hashCode: -1644436633
+    unicode: 0
+    pivot: {x: -16, y: 10.5}
+    sprite: {fileID: 21300020, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 10
+    x: 395
+    y: 432
+    width: 49
+    height: 21
+    xOffset: -24.5
+    yOffset: 10.5
+    xAdvance: 49
+    scale: 1
+    name: 59894_12
+    hashCode: -1644436635
+    unicode: 0
+    pivot: {x: -24.5, y: 10.5}
+    sprite: {fileID: 21300024, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 11
+    x: 449
+    y: 432
+    width: 42
+    height: 21
+    xOffset: -21
+    yOffset: 10.5
+    xAdvance: 42
+    scale: 1
+    name: 59894_13
+    hashCode: -1644436636
+    unicode: 0
+    pivot: {x: -21, y: 10.5}
+    sprite: {fileID: 21300026, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 12
+    x: 329
+    y: 428
+    width: 58
+    height: 25
+    xOffset: -29
+    yOffset: 12.5
+    xAdvance: 58
+    scale: 1
+    name: 59894_11
+    hashCode: -1644436634
+    unicode: 0
+    pivot: {x: -29, y: 12.5}
+    sprite: {fileID: 21300022, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 13
+    x: 496
+    y: 423
+    width: 5
+    height: 5
+    xOffset: -2.5
+    yOffset: 2.5
+    xAdvance: 5
+    scale: 1
+    name: 59894_15
+    hashCode: -1644436638
+    unicode: 0
+    pivot: {x: -2.5, y: 2.5}
+    sprite: {fileID: 21300030, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 14
+    x: 443
+    y: 415
+    width: 24
+    height: 5
+    xOffset: -12
+    yOffset: 2.5
+    xAdvance: 24
+    scale: 1
+    name: 59894_18
+    hashCode: -1644436625
+    unicode: 0
+    pivot: {x: -12, y: 2.5}
+    sprite: {fileID: 21300036, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 15
+    x: 468
+    y: 415
+    width: 4
+    height: 5
+    xOffset: -2
+    yOffset: 2.5
+    xAdvance: 4
+    scale: 1
+    name: 59894_19
+    hashCode: -1644436626
+    unicode: 0
+    pivot: {x: -2, y: 2.5}
+    sprite: {fileID: 21300038, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 16
+    x: 473
+    y: 415
+    width: 4
+    height: 5
+    xOffset: -2
+    yOffset: 2.5
+    xAdvance: 4
+    scale: 1
+    name: 59894_20
+    hashCode: -1644436796
+    unicode: 0
+    pivot: {x: -2, y: 2.5}
+    sprite: {fileID: 21300040, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 17
+    x: 478
+    y: 415
+    width: 4
+    height: 5
+    xOffset: -2
+    yOffset: 2.5
+    xAdvance: 4
+    scale: 1
+    name: 59894_21
+    hashCode: -1644436795
+    unicode: 0
+    pivot: {x: -2, y: 2.5}
+    sprite: {fileID: 21300042, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 18
+    x: 487
+    y: 415
+    width: 4
+    height: 5
+    xOffset: -2
+    yOffset: 2.5
+    xAdvance: 4
+    scale: 1
+    name: 59894_22
+    hashCode: -1644436794
+    unicode: 0
+    pivot: {x: -2, y: 2.5}
+    sprite: {fileID: 21300044, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 19
+    x: 492
+    y: 415
+    width: 7
+    height: 5
+    xOffset: -3.5
+    yOffset: 2.5
+    xAdvance: 7
+    scale: 1
+    name: 59894_23
+    hashCode: -1644436793
+    unicode: 0
+    pivot: {x: -3.5, y: 2.5}
+    sprite: {fileID: 21300046, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 20
+    x: 500
+    y: 415
+    width: 4
+    height: 5
+    xOffset: -2
+    yOffset: 2.5
+    xAdvance: 4
+    scale: 1
+    name: 59894_24
+    hashCode: -1644436800
+    unicode: 0
+    pivot: {x: -2, y: 2.5}
+    sprite: {fileID: 21300048, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 21
+    x: 312
+    y: 409
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_16
+    hashCode: -1644436639
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300032, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 22
+    x: 310
+    y: 405
+    width: 5
+    height: 6
+    xOffset: -2.5
+    yOffset: 3
+    xAdvance: 5
+    scale: 1
+    name: 59894_25
+    hashCode: -1644436799
+    unicode: 0
+    pivot: {x: -2.5, y: 3}
+    sprite: {fileID: 21300050, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 23
+    x: 351
+    y: 397
+    width: 89
+    height: 24
+    xOffset: -44.5
+    yOffset: 12
+    xAdvance: 89
+    scale: 1
+    name: 59894_17
+    hashCode: -1644436640
+    unicode: 0
+    pivot: {x: -44.5, y: 12}
+    sprite: {fileID: 21300034, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 24
+    x: 316
+    y: 395
+    width: 7
+    height: 7
+    xOffset: -3.5
+    yOffset: 3.5
+    xAdvance: 7
+    scale: 1
+    name: 59894_26
+    hashCode: -1644436798
+    unicode: 0
+    pivot: {x: -3.5, y: 3.5}
+    sprite: {fileID: 21300052, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 25
+    x: 292
+    y: 379
+    width: 21
+    height: 9
+    xOffset: -10.5
+    yOffset: 4.5
+    xAdvance: 21
+    scale: 1
+    name: 59894_27
+    hashCode: -1644436797
+    unicode: 0
+    pivot: {x: -10.5, y: 4.5}
+    sprite: {fileID: 21300054, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 26
+    x: 328
+    y: 379
+    width: 21
+    height: 9
+    xOffset: -10.5
+    yOffset: 4.5
+    xAdvance: 21
+    scale: 1
+    name: 59894_29
+    hashCode: -1644436787
+    unicode: 0
+    pivot: {x: -10.5, y: 4.5}
+    sprite: {fileID: 21300058, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 27
+    x: 315
+    y: 372
+    width: 11
+    height: 18
+    xOffset: -5.5
+    yOffset: 9
+    xAdvance: 11
+    scale: 1
+    name: 59894_28
+    hashCode: -1644436788
+    unicode: 0
+    pivot: {x: -5.5, y: 9}
+    sprite: {fileID: 21300056, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 28
+    x: 354
+    y: 365
+    width: 52
+    height: 29
+    xOffset: -26
+    yOffset: 14.5
+    xAdvance: 52
+    scale: 1
+    name: 59894_30
+    hashCode: -1644436699
+    unicode: 0
+    pivot: {x: -26, y: 14.5}
+    sprite: {fileID: 21300060, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 29
+    x: 414
+    y: 365
+    width: 52
+    height: 29
+    xOffset: -26
+    yOffset: 14.5
+    xAdvance: 52
+    scale: 1
+    name: 59894_31
+    hashCode: -1644436700
+    unicode: 0
+    pivot: {x: -26, y: 14.5}
+    sprite: {fileID: 21300062, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 30
+    x: 292
+    y: 356
+    width: 40
+    height: 14
+    xOffset: -20
+    yOffset: 7
+    xAdvance: 40
+    scale: 1
+    name: 59894_32
+    hashCode: -1644436697
+    unicode: 0
+    pivot: {x: -20, y: 7}
+    sprite: {fileID: 21300064, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 31
+    x: 334
+    y: 356
+    width: 13
+    height: 14
+    xOffset: -6.5
+    yOffset: 7
+    xAdvance: 13
+    scale: 1
+    name: 59894_33
+    hashCode: -1644436698
+    unicode: 0
+    pivot: {x: -6.5, y: 7}
+    sprite: {fileID: 21300066, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 32
+    x: 292
+    y: 334
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number2
+    hashCode: 1873747441
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300068, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 33
+    x: 306
+    y: 334
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number3
+    hashCode: 1873747440
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300070, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 34
+    x: 320
+    y: 334
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number4
+    hashCode: 1873747447
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300072, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 35
+    x: 334
+    y: 334
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number5
+    hashCode: 1873747446
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300074, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 36
+    x: 292
+    y: 310
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number6
+    hashCode: 1873747445
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300076, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 37
+    x: 306
+    y: 310
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number7
+    hashCode: 1873747444
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300078, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 38
+    x: 320
+    y: 310
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number8
+    hashCode: 1873747451
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300080, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 39
+    x: 334
+    y: 310
+    width: 12
+    height: 18
+    xOffset: -6
+    yOffset: 9
+    xAdvance: 12
+    scale: 1
+    name: Number9
+    hashCode: 1873747450
+    unicode: 0
+    pivot: {x: -6, y: 9}
+    sprite: {fileID: 21300082, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 40
+    x: 311
+    y: 296
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number9_bold
+    hashCode: -2062400352
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300086, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 41
+    x: 292
+    y: 290
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: 59894_42
+    hashCode: -1644436864
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300084, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 42
+    x: 292
+    y: 272
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: 59894_44
+    hashCode: -1644436858
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300088, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 43
+    x: 293
+    y: 260
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: Number8_bold
+    hashCode: 2117600321
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300090, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 44
+    x: 0
+    y: 256
+    width: 144
+    height: 256
+    xOffset: -72
+    yOffset: 128
+    xAdvance: 144
+    scale: 1
+    name: 59894_0
+    hashCode: 600921206
+    unicode: 0
+    pivot: {x: -72, y: 128}
+    sprite: {fileID: 21300000, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 45
+    x: 145
+    y: 256
+    width: 144
+    height: 256
+    xOffset: -72
+    yOffset: 128
+    xAdvance: 144
+    scale: 1
+    name: 59894_1
+    hashCode: 600921207
+    unicode: 0
+    pivot: {x: -72, y: 128}
+    sprite: {fileID: 21300002, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 46
+    x: 121
+    y: 232
+    width: 22
+    height: 22
+    xOffset: -11
+    yOffset: 11
+    xAdvance: 22
+    scale: 1
+    name: 59894_47
+    hashCode: -1644436859
+    unicode: 0
+    pivot: {x: -11, y: 11}
+    sprite: {fileID: 21300094, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 47
+    x: 121
+    y: 209
+    width: 22
+    height: 22
+    xOffset: -11
+    yOffset: 11
+    xAdvance: 22
+    scale: 1
+    name: 59894_48
+    hashCode: -1644436854
+    unicode: 0
+    pivot: {x: -11, y: 11}
+    sprite: {fileID: 21300096, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 48
+    x: 3
+    y: 196
+    width: 113
+    height: 57
+    xOffset: -56.5
+    yOffset: 28.5
+    xAdvance: 113
+    scale: 1
+    name: 59894_46
+    hashCode: -1644436860
+    unicode: 0
+    pivot: {x: -56.5, y: 28.5}
+    sprite: {fileID: 21300092, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 49
+    x: 137
+    y: 196
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: 59894_50
+    hashCode: -1644436765
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300100, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 50
+    x: 121
+    y: 192
+    width: 13
+    height: 14
+    xOffset: -6.5
+    yOffset: 7
+    xAdvance: 13
+    scale: 1
+    name: 59894_49
+    hashCode: -1644436853
+    unicode: 0
+    pivot: {x: -6.5, y: 7}
+    sprite: {fileID: 21300098, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 51
+    x: 115
+    y: 171
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_55
+    hashCode: -1644436762
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300110, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 52
+    x: 138
+    y: 168
+    width: 6
+    height: 21
+    xOffset: -3
+    yOffset: 10.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_56
+    hashCode: -1644436763
+    unicode: 0
+    pivot: {x: -3, y: 10.5}
+    sprite: {fileID: 21300112, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 53
+    x: 138
+    y: 156
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_58
+    hashCode: -1644436757
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300116, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 54
+    x: 115
+    y: 145
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_57
+    hashCode: -1644436764
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300114, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 55
+    x: 138
+    y: 141
+    width: 6
+    height: 13
+    xOffset: -3
+    yOffset: 6.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_59
+    hashCode: -1644436758
+    unicode: 0
+    pivot: {x: -3, y: 6.5}
+    sprite: {fileID: 21300118, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 56
+    x: 138
+    y: 130
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_61
+    hashCode: -1644436927
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300122, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 57
+    x: 138
+    y: 121
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_62
+    hashCode: -1644436926
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300124, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 58
+    x: 115
+    y: 119
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_60
+    hashCode: -1644436928
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300120, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 59
+    x: 138
+    y: 114
+    width: 5
+    height: 5
+    xOffset: -2.5
+    yOffset: 2.5
+    xAdvance: 5
+    scale: 1
+    name: 59894_63
+    hashCode: -1644436925
+    unicode: 0
+    pivot: {x: -2.5, y: 2.5}
+    sprite: {fileID: 21300126, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 60
+    x: 138
+    y: 104
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_65
+    hashCode: -1644436923
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300130, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 61
+    x: 138
+    y: 95
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_66
+    hashCode: -1644436922
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300132, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 62
+    x: 115
+    y: 93
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_64
+    hashCode: -1644436924
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300128, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 63
+    x: 138
+    y: 78
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_68
+    hashCode: -1644436920
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300136, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 64
+    x: 138
+    y: 69
+    width: 6
+    height: 7
+    xOffset: -3
+    yOffset: 3.5
+    xAdvance: 6
+    scale: 1
+    name: 59894_69
+    hashCode: -1644436919
+    unicode: 0
+    pivot: {x: -3, y: 3.5}
+    sprite: {fileID: 21300138, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 65
+    x: 115
+    y: 67
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_67
+    hashCode: -1644436921
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300134, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 66
+    x: 136
+    y: 39
+    width: 8
+    height: 18
+    xOffset: -4
+    yOffset: 9
+    xAdvance: 8
+    scale: 1
+    name: Number1
+    hashCode: 1873747442
+    unicode: 0
+    pivot: {x: -4, y: 9}
+    sprite: {fileID: 21300142, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 67
+    x: 112
+    y: 37
+    width: 22
+    height: 22
+    xOffset: -11
+    yOffset: 11
+    xAdvance: 22
+    scale: 1
+    name: 59894_70
+    hashCode: -1644436831
+    unicode: 0
+    pivot: {x: -11, y: 11}
+    sprite: {fileID: 21300140, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 68
+    x: 0
+    y: 29
+    width: 26
+    height: 160
+    xOffset: -13
+    yOffset: 80
+    xAdvance: 26
+    scale: 1
+    name: 59894_51
+    hashCode: -1644436766
+    unicode: 0
+    pivot: {x: -13, y: 80}
+    sprite: {fileID: 21300102, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 69
+    x: 28
+    y: 29
+    width: 26
+    height: 160
+    xOffset: -13
+    yOffset: 80
+    xAdvance: 26
+    scale: 1
+    name: 59894_52
+    hashCode: -1644436767
+    unicode: 0
+    pivot: {x: -13, y: 80}
+    sprite: {fileID: 21300104, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 70
+    x: 56
+    y: 29
+    width: 26
+    height: 160
+    xOffset: -13
+    yOffset: 80
+    xAdvance: 26
+    scale: 1
+    name: 59894_53
+    hashCode: -1644436768
+    unicode: 0
+    pivot: {x: -13, y: 80}
+    sprite: {fileID: 21300106, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 71
+    x: 84
+    y: 29
+    width: 26
+    height: 160
+    xOffset: -13
+    yOffset: 80
+    xAdvance: 26
+    scale: 1
+    name: 59894_54
+    hashCode: -1644436761
+    unicode: 0
+    pivot: {x: -13, y: 80}
+    sprite: {fileID: 21300108, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 72
+    x: 139
+    y: 25
+    width: 5
+    height: 10
+    xOffset: -2.5
+    yOffset: 5
+    xAdvance: 5
+    scale: 1
+    name: 59894_73
+    hashCode: -1644436830
+    unicode: 0
+    pivot: {x: -2.5, y: 5}
+    sprite: {fileID: 21300146, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 73
+    x: 112
+    y: 13
+    width: 22
+    height: 22
+    xOffset: -11
+    yOffset: 11
+    xAdvance: 22
+    scale: 1
+    name: 59894_72
+    hashCode: -1644436829
+    unicode: 0
+    pivot: {x: -11, y: 11}
+    sprite: {fileID: 21300144, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 74
+    x: 137
+    y: 13
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: 59894_78
+    hashCode: -1644436823
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300156, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 75
+    x: 3
+    y: 9
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_74
+    hashCode: -1644436827
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300148, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 76
+    x: 31
+    y: 9
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_75
+    hashCode: -1644436828
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300150, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 77
+    x: 59
+    y: 9
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_76
+    hashCode: -1644436825
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300152, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 78
+    x: 87
+    y: 9
+    width: 17
+    height: 12
+    xOffset: -8.5
+    yOffset: 6
+    xAdvance: 17
+    scale: 1
+    name: 59894_77
+    hashCode: -1644436826
+    unicode: 0
+    pivot: {x: -8.5, y: 6}
+    sprite: {fileID: 21300154, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 79
+    x: 112
+    y: 4
+    width: 16
+    height: 7
+    xOffset: -8
+    yOffset: 3.5
+    xAdvance: 16
+    scale: 1
+    name: 59894_79
+    hashCode: -1644436824
+    unicode: 0
+    pivot: {x: -8, y: 3.5}
+    sprite: {fileID: 21300158, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  - id: 80
+    x: 131
+    y: 1
+    width: 7
+    height: 10
+    xOffset: -3.5
+    yOffset: 5
+    xAdvance: 7
+    scale: 1
+    name: 59894_80
+    hashCode: -1644436466
+    unicode: 0
+    pivot: {x: -3.5, y: 5}
+    sprite: {fileID: 21300160, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21966491963721772
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ae3f3bd700dc707428f8b6be994862df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
